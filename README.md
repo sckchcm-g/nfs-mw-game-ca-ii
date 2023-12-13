@@ -8,7 +8,7 @@
 - `Left arrow ←` or `A`
 - `Down arrow ↓` or `S`
 - `Right arrow →` or `D`
-![img](img/Screenshot(173).png)
+![img](/relative/img/Screenshot(173).png)
 
 ### Deployed link
 You can play the game [here](https://marvelous-profiterole-5a2299.netlify.app/index.html).
