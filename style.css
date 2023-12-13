@@ -165,7 +165,7 @@ body {
   transition: 300ms ;
 }
 
-.searchdiv button:hover{
+.searchdivbtn button:hover{
   background-color: rgb(79, 56, 0);
 }
 
