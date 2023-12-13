@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFS MW</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header header_theme_dark">
+        <div class="score"><b>SCORE: 0</b></div>
+        <div class="start">
+          <button class="btn" data-level-game="1">Low Traffic</button>
+          <button class="btn" data-level-game="2">Medium Traffic</button>
+          <button class="btn" data-level-game="3">High Traffic</button>
+          <button class="btn" data-level-game="4">0 Traffic (for testing)</button>
+        </div>
+        <div class="header__title">
+          <h3 class="header__text">Need for Speed <span class="header__text_color_gold">MOST WANTED</span></h3>
+        </div>
+      </header>
+
+      <!-- Gameplay-->
+      <main class="game">
+        <div class="game-area">
+          <h1 class="game-area__text">Welcome to the <br> - NFS MW - <br> <p style="color: rgb(251, 192, 45);">Traffic racer Edition</p></h1>
+          <div class="searchdiv">
+            <input type="text" class="inputbtn" id="nameInput">
+            <button class="inputbtn" onclick="addName()">Submit</button>
+          </div>
+          <h2 class="game-area__text">Select your Traffic level from top of the screen</h2>
+          <h2 class="game-area__text">Scroll down to quickly have a look at controls</h2>
+          <p style="color: rgba(255, 255, 255, 0.593);">Drive down the road and see how far you can go!</p>
+        </div>
+        <div>
+          <button class="resetbtn" onclick="resetGame()">Reset</button>
+        </div>
+      </main>
+
+      <!-- Footer {Controls} -->
+      <footer class="footer">
+        <div class="game-description">
+          <h3>Move using:</h3>
+          <ul class="game-description__list">
+            <li class="game-description__item">Left arrow &#x2190; or A</li>
+            <li class="game-description__item">Up arrow &#x2191; or W <br> increases speed</li>
+            <li class="game-description__item">Down arrow &#x2193; or S <br> decreases speed</li>
+            <li class="game-description__item">Right arrow &#x2192; or D</li>
+          </ul>
+        </div>
+        <div class="btn Oglink">
+          <a href="https://www.imdb.com/title/tt0462448/">Original Game Link</a>
+        </div>
+      </footer>
+
+      <!-- Modal -->
+      <div class="modal-container" id="modal">
+        <div class="modal">
+          <span class="close-icon" id="close-modal">&#x2715;</span>
+          <div class="modal-content">
+            <p>Game Over!</p>
+            <p class="modal-content__text"></p>
+            <p id="gameOverText"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile View -->
+    <div class="mobile-message" hidden>
+      <h2>Please use application on larger screen!</h2>
+    </div>
+    <script src="./main.js"></script>
+    <!-- <script src="./test.js"></script> -->
+  </body>
+</html>
