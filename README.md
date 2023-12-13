@@ -12,4 +12,6 @@
 ### Deployed link
 You can play the game [here](https://marvelous-profiterole-5a2299.netlify.app/index.html).
 
+### Inspiration
+The Web game was inspired by a highly auspicious and successful game title released in 2005, check it out [here](https://www.imdb.com/title/tt0462448/)
 
