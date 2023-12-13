@@ -27,13 +27,20 @@
       <main class="game">
         <div class="game-area">
           <h1 class="game-area__text">Welcome to the <br> - NFS MW - <br> <p style="color: rgb(251, 192, 45);">Traffic racer Edition</p></h1>
-          <div class="searchdiv">
-            <input type="text" class="inputbtn" id="nameInput">
-            <button class="inputbtn" onclick="addName()">Submit</button>
+          <div class="inputsearch">
+            <div class="searchdiv">
+              <input type="text" class="inputbtn" id="nameInput" placeholder="Name">
+              <input type="text" class="inputbtn" id="nickInput" placeholder="Nickname">
+            </div>
+            <div class="searchdivbtn">
+              <button class="inputbtn" onclick="addName()">Submit</button>
+            </div>
           </div>
-          <h2 class="game-area__text">Select your Traffic level from top of the screen</h2>
-          <h2 class="game-area__text">Scroll down to quickly have a look at controls</h2>
-          <p style="color: rgba(255, 255, 255, 0.593);">Drive down the road and see how far you can go!</p>
+          <div class="game_area_box">
+            <h2 class="game-area__text">Select your Traffic level from top of the screen</h2>
+            <p style="color: rgba(255, 255, 255, 0.593);">Scroll down to quickly have a look at controls</p>
+            <p style="color: rgba(255, 255, 255, 0.593);">Drive down the road and see how far you can go!</p>
+          </div>
         </div>
         <div>
           <button class="resetbtn" onclick="resetGame()">Reset</button>
