@@ -303,6 +303,11 @@ body {
   color: #FBC02D;
 }
 
+.modal-footer{
+  color: aliceblue;
+  margin-left: 20px;
+}
+
 
 /* Media Query: Mobile Devices */
 @media screen and (max-width: 660px) {
