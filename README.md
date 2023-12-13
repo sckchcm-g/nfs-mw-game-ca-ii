@@ -1,8 +1,8 @@
-Need For Speed Most Wanted Traffic Racer Edition
+# Need For Speed Most Wanted Traffic Racer Edition
 
 ![nfsmw](https://cdna.artstation.com/p/assets/images/images/039/001/058/large/-nfs-mw-3.jpg?1624651166)
 
-Gameplay
+## Gameplay
   Move using:
 - `Up arrow ↑` or `W`
 - `Left arrow ←` or `A`
