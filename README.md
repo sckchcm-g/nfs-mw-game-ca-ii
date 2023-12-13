@@ -1,6 +1,6 @@
 Need For Speed Most Wanted Traffic Racer Edition
 
-![nfsmw](https://www.dsogaming.com/wp-content/uploads/2020/04/Need-for-Speed-Most-Wanted-2005.jpg)
+![nfsmw](https://w0.peakpx.com/wallpaper/309/345/HD-wallpaper-need-for-speed-most-wanted-game-need-for-speed-games-deviantart.jpg)
 
 Gameplay
   Move using:
