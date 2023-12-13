@@ -1,26 +1,18 @@
-# Need For JS
-Car Racing Game written in HTML, CCS and JavaScript.
+# Need For Speed Most Wanted Traffic Racer Edition
 
-## Gameplay
-### Move using:
+![nfsmw](https://cdna.artstation.com/p/assets/images/images/039/001/058/large/-nfs-mw-3.jpg?1624651166)
+
+### Gameplay
+  Move using:
 - `Up arrow ↑` or `W`
 - `Left arrow ←` or `A`
 - `Down arrow ↓` or `S`
 - `Right arrow →` or `D`
 
-## Demo
-You can view a live version [here](https://tinawebdev.github.io/need-for-js/).
 
-## How to use
-* Open Terminal and change the current working directory to the location where you want the cloned directory to be made.
-* Download the repository using the [instruction](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-* Open the directory with the files downloaded, go to the project folder and open the `index.html` file. All done.
+### Deployed link
+You can play the game [here](https://marvelous-profiterole-5a2299.netlify.app/index.html).
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Inspiration
+The Web game was inspired by a highly auspicious and successful game title released in 2005, check it out [here](https://www.imdb.com/title/tt0462448/)
 
-## License
-Licensed under the [MIT license](./LICENSE).
-
-## Special Thanks
-Thanks to [Glo Academy](https://glo.academy/) for a free JavaScript Workshop and the game idea.
