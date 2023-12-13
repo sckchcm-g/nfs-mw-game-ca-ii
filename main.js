@@ -271,6 +271,7 @@ modalClose.addEventListener('click', () => {
 
 function addName() {
   var inputText = document.getElementById("nameInput").value;
+  var inputNick = document.getElementById("nickInput").value;
   var motivationPhrases = [
       "You did great!",
       "Keep up the driving!",
@@ -282,7 +283,7 @@ function addName() {
   ];
   var randomIndex = Math.floor(Math.random() * motivationPhrases.length);
   var randomPhrase = motivationPhrases[randomIndex];
-  var gameOverText = "Hey " + inputText + ". " + randomPhrase;
+  var gameOverText = "Hey " + inputText + " aka " + inputNick + ". " + randomPhrase;
   document.getElementById("gameOverText").innerHTML = gameOverText;
 }
 
