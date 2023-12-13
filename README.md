@@ -1,6 +1,6 @@
 Need For Speed Most Wanted Traffic Racer Edition
 
-![nfsmw](https://w0.peakpx.com/wallpaper/309/345/HD-wallpaper-need-for-speed-most-wanted-game-need-for-speed-games-deviantart.jpg)
+![nfsmw](https://cdna.artstation.com/p/assets/images/images/039/001/058/large/-nfs-mw-3.jpg?1624651166)
 
 Gameplay
   Move using:
