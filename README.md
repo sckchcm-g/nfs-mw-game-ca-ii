@@ -2,14 +2,14 @@
 
 ![nfsmw](https://cdna.artstation.com/p/assets/images/images/039/001/058/large/-nfs-mw-3.jpg?1624651166)
 
-## Gameplay
+### Gameplay
   Move using:
 - `Up arrow ↑` or `W`
 - `Left arrow ←` or `A`
 - `Down arrow ↓` or `S`
 - `Right arrow →` or `D`
 
-## Deployed link
+### Deployed link
 You can play the game [here](https://marvelous-profiterole-5a2299.netlify.app/index.html).
 
 
