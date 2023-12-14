@@ -296,13 +296,13 @@ function addName() {
   var inputText = document.getElementById("nameInput").value;
   var inputNick = document.getElementById("nickInput").value;
   var motivationPhrases = [
-      "You did great!",
-      "Keep up the driving!",
-      "You were awesome!",
-      "Never give up!",
-      "Believe in yourself!",
-      "Try focusing more next time !",
-      "You can do it next time!",
+      "Got Smoked out by silly traffic eh?",
+      "You gotta go to some driving school.",
+      "Oops ! was that a mistake?",
+      "Think you can do it next time?",
+      "Learn to cruse like a Cadillac roar like a jackal",
+      "Keep your eyes on the road !",
+      "Was the car too powerful for ya ?",
   ];
   var randomIndex = Math.floor(Math.random() * motivationPhrases.length);
   var randomPhrase = motivationPhrases[randomIndex];
