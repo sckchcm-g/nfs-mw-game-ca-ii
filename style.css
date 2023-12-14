@@ -396,7 +396,7 @@ body {
 }
 
 .start .btn {
-  animation: pulse 10s infinite;
+  animation: pulse 5s infinite;
 }
 
 @keyframes pulse {
