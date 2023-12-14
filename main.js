@@ -224,19 +224,28 @@ function playGame() {
   }
 }
 
+
+// window.addEventListener('keydown', startRun);
+// window.addEventListener('keyup', stopRun);
+
 function startRun(event) {
-  if (keys.hasOwnProperty(event.key) && document.activeElement !== document.getElementById('nameInput')) {
-    event.preventDefault();
-    keys[event.key] = true;
+  if (keys.hasOwnProperty(event.key)) {
+    if (document.activeElement.id !== 'nameInput' && document.activeElement.id !== 'nickInput') {
+      event.preventDefault();
+      keys[event.key] = true;
+    }
   }
 }
 
 function stopRun(event) {
-  if (keys.hasOwnProperty(event.key) && document.activeElement !== document.getElementById('nameInput')) {
-    event.preventDefault();
-    keys[event.key] = false;
+  if (keys.hasOwnProperty(event.key)) {
+    if (document.activeElement.id !== 'nameInput' && document.activeElement.id !== 'nickInput') {
+      event.preventDefault();
+      keys[event.key] = false;
+    }
   }
 }
+
 
 
 function moveRoad() {
