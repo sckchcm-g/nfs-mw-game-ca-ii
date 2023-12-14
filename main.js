@@ -13,12 +13,33 @@ const score = document.querySelector('.score'),
       modalContentText = document.querySelector('.modal-content__text'),
       modalClose = document.getElementById('close-modal');
 
-
-const music = new Audio('audio/spotifydown.com - Back In Black.mp3');
+const startmusic = new Audio('audio/Nine Thou.mp3');
+const music = new Audio('audio/Shapeshifter.mp3');
 const music2 = new Audio('audio/yoooo.mp3');  
 const music3 = new Audio('audio/crash.mp3');  
+const endmusic = new Audio('audio/Sets Go Up.mp3');
 
 car.classList.add('car');
+
+function startplaymusic(a) {
+  if(a === true) {
+    startmusic.play();
+    startmusic.loop = true;
+  } else {
+    startmusic.pause();
+  }
+}
+startplaymusic(true);
+function endedmusic(a) {
+  if(a === true) {
+    endmusic.play();
+    endmusic.loop = true;
+  } else {
+    endmusic.pause();
+  }
+}
+
+// startplaymusic();
 
 start.addEventListener('click', startGame);
 document.addEventListener('keydown', startRun);
@@ -51,11 +72,11 @@ const changeLevel = (lvl) => {
       setting.speed = 6;
       break;
     case '2':
-      setting.traffic = 7;
+      setting.traffic = 9;
       setting.speed = 4;
       break;
     case '3':
-      setting.traffic = 5;
+      setting.traffic = 7;
       setting.speed = 2;
       break;
     case '4':
@@ -94,6 +115,7 @@ function startGame(event) {
 
   music.volume = 1;
   music.loop = true;
+  startplaymusic(false);
 
   music2.play();
   music2.volume = .8;
@@ -260,6 +282,7 @@ function showModal() {
   modalContentText.innerHTML = `Result: <span class="modal-content__score">${setting.score}</span>`;
 
   modalContentText.classList.add('show-modal__text');
+  endedmusic(true);
   
 }
 
